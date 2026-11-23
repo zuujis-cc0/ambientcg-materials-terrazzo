@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="acg_7lwpfcxu"]
+
+[ext_resource type="Texture2D" uid="uid://acg_dy5mfqt7" id="Color" path="./Terrazzo019L_2K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_tlwx3e6g" id="Displacement" path="./Terrazzo019L_2K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_eh5j8v2a" id="Roughness" path="./Terrazzo019L_2K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_vfctoue3" id="NormalGL" path="./Terrazzo019L_2K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
